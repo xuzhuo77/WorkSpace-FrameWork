@@ -1,0 +1,23 @@
+pip freeze > requirements.txt
+
+mv /home/ubuntu/WorkSpace-FrameWork/requirements.txt /home/ubuntu/WorkSpace-FrameWork/env_framework/site-package
+
+# 权限
+cd /home/ubuntu/WorkSpace-FrameWork/env_framework/bin
+source /home/ubuntu/WorkSpace-FrameWork/env_framework/bin/activate
+
+cd /home/ubuntu/WorkSpace-FrameWork/env_framework/site-package
+pip download -r /home/ubuntu/WorkSpace-FrameWork/env_framework/site-package/requirements.txt -d .
+rm requirements.txt
+pip install site-package/*
+
+
+# 解除权限
+deactivate
+
+
+
+# 启动
+cd /home/ubuntu/WorkSpace-FrameWork
+
+/home/ubuntu/WorkSpace-FrameWork/env_framework/bin/python /home/ubuntu/WorkSpace-FrameWork/TestProject/test_docker/flask_nameko.py

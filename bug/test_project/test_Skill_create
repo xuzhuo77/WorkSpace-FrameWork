@@ -1,0 +1,30 @@
+#建造
+from bug.Bug import SkillBuild, Animal_Nest, World, SkillLayEgg, Animal_Egg, BaseInfo, Animal_Building
+
+building_name = "techLab"
+info = BaseInfo(building_name, "building")
+# 研究院
+building = Animal_Building(1)
+building.init_info(info)
+print(building.skills)
+print("[-----------]",building.b_name)
+
+
+world = World()
+skill2=SkillBuild(building)
+skill2.set_prototype(Animal_Nest)
+building.add_skill(skill2)
+building.show_skill_names()
+print(building.export_info())
+building.trigger_skill(1)
+print(world.animal_list)
+
+#下蛋
+skill3=SkillLayEgg(building)
+skill3.set_prototype(Animal_Egg)
+building.add_skill(skill3)
+building.show_skill_names()
+building.trigger_skill(2)
+world.update()
+print(world.animal_list)
+world.update()

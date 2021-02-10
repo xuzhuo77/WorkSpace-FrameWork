@@ -1,0 +1,13 @@
+from bug.Bug import Animal_Egg,World
+egg = Animal_Egg(None)
+world=World()
+world.add_animal(egg)
+print(World().animal_list)
+egg.trigger_skill(1)
+world.update()
+world.update()
+print(World().animal_list)
+world.update()
+world.update()
+world.update()
+print(World().animal_list)

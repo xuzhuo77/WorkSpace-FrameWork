@@ -1,0 +1,2 @@
+- Approaches that explicitly or implicitly model the distribution of inputs as well as outputs are known as generative models, 
+- because by sampling from them it is possible to generate synthetic data points in the input space.

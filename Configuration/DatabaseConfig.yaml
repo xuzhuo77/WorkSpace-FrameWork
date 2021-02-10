@@ -1,0 +1,12 @@
+# 简介
+connection_name: mysql
+database_type: mysql+pymysql
+database: gameserver
+auth:
+      username: startover
+      password: startover
+address:
+      ip: 111.229.148.2
+      port: 3306
+charset: utf8
+

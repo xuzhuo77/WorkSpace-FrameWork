@@ -1,0 +1,18 @@
+https://my.oschina.net/pzzpan/blog/891883
+# 安装
+sudo apt install build-essential unzip python-dev libaio-dev
+# 下载
+http://www.oracle.com/technetwork/topics/linuxx86-64soft-092277.html
+Instant Client Package - Basic，第二个是Instant Client Package - SDK
+# 导入文件
+sudo mv instantclient_19_6 /usr/local
+
+# 环境变量
+sudo vi ~/.bashrc
+
+export ORACLE_HOME="/usr/local/instantclient_19_6"
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$ORACLE_HOME
+
+source ~/.bsahrc
+
+后面都有好像

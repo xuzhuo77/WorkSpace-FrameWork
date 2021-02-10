@@ -1,0 +1,8 @@
+
+
+[基础]
+关键字: 文件配置,数据升级,执行升级
+https://blog.csdn.net/deerlux/article/details/50181997
+
+alembic revision --autogenerate -m "first length of guid"
+alembic upgrade head

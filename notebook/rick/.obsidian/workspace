@@ -1,0 +1,93 @@
+{
+  "main": {
+    "id": "985b23d88fada9f1",
+    "type": "split",
+    "children": [
+      {
+        "id": "a5519c2a3c8da61f",
+        "type": "leaf",
+        "active": true,
+        "state": {
+          "type": "empty",
+          "state": {}
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e506294127324dcc",
+    "type": "split",
+    "children": [
+      {
+        "id": "df2da846a855a49e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "561780474c2ea3b2",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "ed3e1dd5b621c380",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": ""
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "e3756741c63557ef",
+    "type": "split",
+    "children": [
+      {
+        "id": "427e297b72780056",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e7010cc8e929ea46",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {}
+            }
+          },
+          {
+            "id": "1da61e2c7d4de931",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "lastOpenFiles": [
+    "服务器,代理,nginx/反向代理服务器.md",
+    "服务器,代理,nginx/代理服务器.md",
+    "服务器,代理,nginx/局域网.md",
+    "服务器,代理,nginx/动静分离.md",
+    "服务器,代理,nginx/nginx.md",
+    "服务器,代理,nginx/负载均衡.md",
+    "服务器,代理,nginx/正向代理.md",
+    "服务器,代理,nginx/反向代理.md",
+    "如何管理信息：P.A.R.A. 是什么及在 Notion 中的应用.md",
+    "Untitled.md"
+  ]
+}

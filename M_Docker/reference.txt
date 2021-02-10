@@ -1,0 +1,10 @@
+1.docker 安装
+    https://www.runoob.com/docker/ubuntu-docker-install.html
+    https://www.jianshu.com/p/80e3fd18a17e
+
+
+2 docker python 入门
+    https://www.jianshu.com/p/13bd0b564216
+
+3 python 打包成docker文件
+    https://www.jianshu.com/p/fe81ca1bccc6

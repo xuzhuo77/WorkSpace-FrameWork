@@ -1,0 +1,119 @@
+{
+  "main": {
+    "id": "e1932126e525dc9e",
+    "type": "split",
+    "children": [
+      {
+        "id": "e196c30157c755cf",
+        "type": "leaf",
+        "active": true,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Linear Models for Classification/Probabilistic Discriminative Models.md",
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "c5282a9dd865ee8e",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Linear Models for Classification/Probabilistic Discriminative Models.md",
+            "mode": "preview"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0ef4cf594859b248",
+    "type": "split",
+    "children": [
+      {
+        "id": "e3e6f6667c9f361d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ff24dafae09e834d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "77f0216a93a97a71",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "\\n"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "b3164f63fb593d1c",
+    "type": "split",
+    "children": [
+      {
+        "id": "508d70c69e3ad407",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b4a24d43806f7d74",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Linear Models for Classification/Probabilistic Discriminative Models.md"
+              }
+            }
+          },
+          {
+            "id": "5291f5728b966e56",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Linear Models for Classification/Probabilistic Discriminative Models.md"
+              }
+            }
+          },
+          {
+            "id": "6079e501b14d61f6",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "lastOpenFiles": [
+    "Linear Models for Classification/Probabilistic Discriminative Models.md",
+    "Linear Models for Classification/Probabilistic Generative Models.md",
+    "Linear Models for Regression/Maximum likelihood and least squares.md",
+    "Linear Models for Classification/perceptron algorithm.md",
+    "probability Theory/probability densities.md",
+    "probability Theory/Gaussian distribution.md",
+    "probability Theory/curve fitting.md",
+    "probability Theory/Bayesian  probabilities.md",
+    "Decision Theory/Decision Theory.md",
+    "Decision Theory/Untitled.md"
+  ]
+}
