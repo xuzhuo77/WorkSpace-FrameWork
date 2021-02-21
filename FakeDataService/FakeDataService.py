@@ -1,4 +1,4 @@
-from DataBase.SqlEngine import oracle_Engine, url_path, mysql_engine
+from database.SqlEngine import oracle_Engine, url_path, mysql_engine
 from FakeDataService.FakeData import FakeData
 from Utils.AutomapUtil import generateMappedEneity, generateService
 from Utils.FakerUtil import FakerUtil
